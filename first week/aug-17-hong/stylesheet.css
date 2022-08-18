@@ -1,0 +1,81 @@
+.header {
+  background-color: #000;
+  width: 100%;
+  color: white;
+  height: 10vh;
+  display: flex;
+  padding-left: 10%;
+}
+ul {
+  list-style: none;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.headText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+  margin: 40px 0px;
+  color: white;
+}
+
+.grayContent {
+  background-color: #c6bfbf;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+.grayContent > p {
+  width: 80vw;
+}
+
+.grayContent > h1 {
+  margin: 0;
+  font-size: 40px;
+}
+p > span {
+  color: blue;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px 10%;
+}
+
+.content > p {
+  width: 30vw;
+}
+.bot {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b4d14;
+  bottom: 0px;
+  height: 10vh;
+  width: 100%;
+}
+
+.botLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.botRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20%;
+  position: fixed;
+  right: 10%;
+}
